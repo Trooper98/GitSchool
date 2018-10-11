@@ -1,9 +1,9 @@
 package githubbbbb;
 
-public class SimpleCalculator implements CalculatorInterface{
-	//create calculator
+public class SimpleCalculator implements CalculatorInterface {
+	// create calculator
 	public SimpleCalculator() {
-		
+
 	}
 
 	@Override
@@ -28,11 +28,24 @@ public class SimpleCalculator implements CalculatorInterface{
 	}
 
 	@Override
+	public int square(int num1) {
+		// TODO Auto-generated method stub
+		int result = Math.sqr(num1);
+		return result;
+	}
+
+	@Override
 	public int multiply(int num1, int num2) {
 		// TODO Auto-generated method stub
 		int result = num1 * num2;
 		return result;
 	}
+
+	@Override
+	public int modulo(int num1, int num2) {
+		// TODO Auto-generated method stub
+		int result = num1 % num2;
+		return result;
 	
 	
 }
