@@ -1,9 +1,9 @@
-package githubbbbb;
+package theSimpleCalculator;
 
-public class SimpleCalculator implements CalculatorInterface{
-	//create calculator
+public class SimpleCalculator implements CalculatorInterface {
+	// create calculator
 	public SimpleCalculator() {
-		
+
 	}
 
 	@Override
@@ -33,6 +33,5 @@ public class SimpleCalculator implements CalculatorInterface{
 		int result = num1 * num2;
 		return result;
 	}
-	
-	
+
 }
