@@ -1,4 +1,4 @@
-# git4dummies
+# git4starters
 GitHub workshop for students in Software Engineering and Managment
 
 ## learning outcomes
